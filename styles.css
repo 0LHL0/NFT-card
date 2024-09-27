@@ -9,21 +9,107 @@ body {
 
 .container {
     background: radial-gradient(circle, rgb(160, 157, 150) 0%, rgb(39, 39, 39) 100%);
-    padding: 2em;
+    padding: 1em;
     border-radius: 10px;
-    margin: 200px;
+    height:450px ;
+    width: 230px;
+    position: absolute;
+
 }
+
 img {
+    border-radius: 10px; 
+    position:absolute;
+    
+}
+
+.container .images{
+    width: 225px;
+    height: 275px;
+    box-shadow:0 5px 10px 5px rgb(255, 208, 0);
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .overlay{
+    width: 225px;
+    height: 275px;
+    background: rgb(255, 217, 3);
+    border-radius: 10px;
+    opacity: 0;
+    transition: 500ms ease-in-out;
+
+
+}
+.container .images:hover .overlay{
+    opacity:0.4 ;
 }
 .name {
     text-align: left;
+    font-size: 12px;
+
 }
-.description{
-    text-wrap:auto;
+.description {
+    text-wrap: auto;
+    font-size: 11px;
+    opacity:35%;
+    color:#FFB711;
+    opacity: 95%;
+}
+
+.information{
     font-size: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.information .value {
+
     
+}
+
+.information .counter {
     
 }
 
 
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
