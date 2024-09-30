@@ -5,33 +5,35 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    min-width: 375px;
+    max-width: 1440px; 
 }
 
 .container {
     background: radial-gradient(circle, rgb(160, 157, 150) 0%, rgb(39, 39, 39) 100%);
     padding: 1em;
     border-radius: 10px;
-    height:450px ;
+    height: 450px;
     width: 230px;
     position: absolute;
 
 }
 
 img {
-    border-radius: 10px; 
-    position:absolute;
-    
+    border-radius: 10px;
+    position: absolute;
+
 }
 
-.container .images{
+.container .images {
     width: 225px;
     height: 275px;
-    box-shadow:0 5px 10px 5px rgb(255, 208, 0);
+    box-shadow: 0 5px 10px 5px rgb(255, 208, 0);
     border-radius: 10px;
     cursor: pointer;
 }
 
-.container .overlay{
+.container .overlay {
     width: 225px;
     height: 275px;
     background: rgb(255, 217, 3);
@@ -41,23 +43,26 @@ img {
 
 
 }
-.container .images:hover .overlay{
-    opacity:0.4 ;
+
+.container .images:hover .overlay {
+    opacity: 0.4;
 }
+
 .name {
     text-align: left;
     font-size: 12px;
 
 }
+
 .description {
     text-wrap: auto;
     font-size: 11px;
-    opacity:35%;
-    color:#FFB711;
+    opacity: 35%;
+    color: hwb(42 7% 0%);
     opacity: 95%;
 }
 
-.information{
+.information {
     font-size: 15px;
     display: flex;
     flex-direction: row;
@@ -65,51 +70,79 @@ img {
 }
 
 .information .value {
+    display: inline-block;
+    color:hwb(42 7% 0%);
+    opacity: 95%;
+   
 
-    
 }
 
 .information .counter {
+    display: inline-block;
+    color:black;
+    opacity: 95%;
+    font-weight: bold;
+
+}
+
+.creator{
+    display: block;
+}
+
+.creator .logo{
+    height: 20px;
+    width: 20px;
     
+}
+
+.creator .author{
+    color: black;
+    font-weight: bold;
+    opacity: 45%;
+    font-size: 15px;
+}
+
+.creator .final{
+    color: black;
+    font-size: 15px;
+
 }
 
 
 
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
