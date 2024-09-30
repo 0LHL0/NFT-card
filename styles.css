@@ -5,17 +5,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    min-width: 375px;
-    max-width: 1440px; 
-}
+
+
+    
 
 .container {
     background: radial-gradient(circle, rgb(160, 157, 150) 0%, rgb(39, 39, 39) 100%);
-    padding: 1em;
+    padding: 0.5em;
     border-radius: 10px;
     height: 450px;
     width: 230px;
     position: absolute;
+    
 
 }
 
@@ -86,12 +87,16 @@ img {
 }
 
 .creator{
-    display: block;
+    display: flex;
+    flex-direction: row;
+    
+    
+    
 }
 
 .creator .logo{
-    height: 20px;
-    width: 20px;
+    height: 17px;
+    width: 17px;
     
 }
 
@@ -100,11 +105,19 @@ img {
     font-weight: bold;
     opacity: 45%;
     font-size: 15px;
+    margin: 0;
+
 }
 
 .creator .final{
-    color: black;
+    color: hwb(42 7% 0%);
     font-size: 15px;
+    margin:0;
+    text-decoration: none;
+    
+}
+
+.overlay .final {
 
 }
 
