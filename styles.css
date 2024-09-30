@@ -45,6 +45,8 @@ body {
 .name {
     text-align: left;
     font-size: 12px;
+    cursor: pointer;
+    
 
 }
 
@@ -102,45 +104,16 @@ body {
     font-size: 15px;
     margin: 0;
     text-decoration: none;
-
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.final:hover {
+    color: black;
+    transition: 300ms ease-in-out;
 }
+
+.name:hover {
+    color:hwb(42 7% 0%);
+    transition: 300ms ease-in-out;
+    
+}
+
